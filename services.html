@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELIKIA-TECH | Nos services</title>
+
+    <!-- les liens de style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Quicksand:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!-- hey les loosers! vous avez pas idée de combien j'suis content vous voir matter ces codes! -->
+
+    <!-- custom preloader -->
+    <div id="custom_preloader">
+        <div>
+            <div>
+                <i class="fa-solid fa-spinner fa-spin-pulse"></i>
+            </div>
+            <div class="text-dark fs-6">
+                Chargement...
+            </div>
+        </div>
+    </div>
+
+    <!-- la principale -->
+    <div class="app">
+
+        <!-- cette bar de navigation ne concerne que la vue mobile -->
+        <div class="mobile_navigation_menu">
+            <div class="menu_logo">
+                <img src="img/logo.png" alt="" class="logo">
+                <p class="mt-3 mb-0">
+                    The fastest, easiest way to book and manage your international shipment.
+                </p>
+            </div>
+            <nav>
+                <ul class="menu_links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                    <li><a href="services.html" class="active">Nos services</a></li>
+                    <li><a href="projects.html">Nos projets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+
+                        <!-- choisir une langue -->
+                        <div class="language">
+                            <div class="dropdown">
+                                <button class="btn_blank dropdown-toggle" title="Language" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/globe_thin.svg" class="ico" alt="">
+                                    <span class="active-language me-1"></span>
+                                    <i class="fa-solid fa-chevron-down fa-xs"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item active" language="EN" href="#">English</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" language="PT" href="#">Français</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="menu_copyrights">
+                <p class="m-0">Copyrights 2023 - QI-CD</p>
+            </div>
+        </div>
+
+        <!-- et ici commence le block du contenu principal  -->
+        <div class="main_content">
+            <!-- okay cool, commençons par l'entete -->
+            <header class="header">
+                <!-- la barre de navigation dans les grands et moyens écrans -->
+                <div class="navbar_block">
+                    <div class="navbar_links">
+                        <div class="container">
+                            <div class="d-flex align-items-center justify-content-between position-relative w-100">
+                                <div class="brand">
+                                    <img src="img/logo.png" alt="Logo QI-CD">
+                                </div>
+
+                                <nav>
+                                    <ul class="links d-none d-md-flex align-items-center">
+                                        <li><a href="index.html" class="navbar_link">Accueil</a></li>
+                                        <li><a href="about.html" class="navbar_link">A propos</a></li>
+                                        <li><a href="services.html" class="navbar_link active">Nos services</a></li>
+                                        <li><a href="projects.html" class="navbar_link">Nos projets</a></li>
+                                        <li>
+
+                                            <!-- choisir une langue -->
+                                            <!-- <div class="language navbar_link_like">
+                                                <div class="dropdown">
+                                                    <button class="btn_blank dropdown-toggle" title="Language"
+                                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <img src="img/globe_thin.svg" class="ico" alt="">
+                                                        <span class="active-language me-1"></span>
+                                                        <i class="fa-solid fa-chevron-down fa-xs"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <a class="dropdown-item active" language="EN"
+                                                                href="#">English</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" language="FR" href="#">Français</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div> -->
+                                        </li>
+                                        <li class="ml-30 ">
+                                            <a href="contact.html" class="btn-core me-2">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="d-block d-md-none">
+                                    <div class="hamburger">
+                                        <div class="bars"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ainsi que la bannière -->
+                <div class="banner pages">
+
+                    <div class="banner_content">
+
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-7 col-lg-6 mb-4 mb-md-0 pe-4">
+                                    <h1 data-aos="fade-up" data-aos-duration="400" class="title large mb-4">
+                                        Nos services
+                                    </h1>
+                                    <p data-aos="fade-up" data-aos-duration="500" class="mb-4 fs-6">
+                                        On sait depuis longtemps que travailler avec du texte lisible et contenant du
+                                        sens est source de distractions, et
+                                        empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem
+                                        Ipsum sur un texte générique.
+                                    </p>
+                                </div>
+
+                                <div class="col-12 col-md-5 col-lg-6 position-relative">
+                                    <div data-aos="fade-up" data-aos-duration="600" class="custom-rectangle-header pages">
+                                        <img src="img/girl-social-media.jpg" draggable="false" alt="" class="cover">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+            <!-- le contenu principal -->
+            <main role="main">
+                <!-- ce section concerne le service de cloud -->
+                <section class="section">
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <div data-aos="fade-up" data-aos-duration="400" class="col-12 col-md-6 mb-4 mb-md-0 pe-5 order-2 order-md-1">
+                                <div class="custom-rectangle-section">
+                                    <img src="img/hologram-projector-screen-with-cloud-system-technology.jpg" draggable="false" alt="" class="cover">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mb-4 mb-md-0 order-1 order-md-2">
+                                <h2 data-aos="fade-up" data-aos-duration="500" class="title fs-1 mb-4">Système  <span class="text-blue">éducatif</span></h2>
+                                <p data-aos="fade-up" data-aos-duration="600" class="fs-6 mb-4">
+                                ElikiaTech Innovations se concentre sur la création de nouvelles solutions pour aider les étudiants dans leur parcours
+                                d'apprentissage. Ils fournissent des plates-formes logicielles éducatives ainsi que des systèmes de gestion de
+                                l'apprentissage sur mesure pour aider les étudiants à interagir, à collaborer et à s'améliorer sur le plan scolaire.
+                                </p>
+                                <!-- <ul data-aos="fade-up" data-aos-duration="700">
+                                    <li>
+                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                                        isn't anything embarrassing hidden in the
+                                        middle of text.
+                                    </li>
+                                    <li>
+                                        All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks
+                                        as necessary, making this the first true
+                                        generator on the Internet. It uses a dictionary of over 200 Latin words,
+                                        combined with a handful of model sentence
+                                        structures, to generate Lorem Ipsum which looks reasonable.
+                                    </li>
+                                    <li>
+                                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for
+                                        those interested. Sections 1.10.32 and
+                                        1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
+                                        their exact original form.
+                                    </li>
+                                    <li>
+                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature
+                                        from 45 BC, making it over 2000 years old.
+                                    </li>
+                                </ul> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- cette section concerne le service d'intelligence artificielle -->
+                <section class="section gray">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 mb-4 mb-md-0 order-1">
+                                <h2 data-aos="fade-up" data-aos-duration="400" class="title fs-1 mb-4">Conception des <span class="text-blue">sites Web</span>
+                                </h2>
+                                <p data-aos="fade-up" data-aos-duration="500" class="fs-6 mb-4">
+                                ElikiaTech SARL Innovations propose des services de conception de sites Web spécialisés adaptés aux demandes des
+                                établissements d'enseignement, des entreprises et des organisations. Ils conçoivent des sites Web visuellement beaux et
+                                conviviaux qui communiquent avec succès les marques et les messages de leurs clients.
+                                </p>
+                                <!-- <ul data-aos="fade-up" data-aos-duration="600">
+                                    <li>
+                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                                        embarrassing hidden
+                                        in the
+                                        middle of text.
+                                    </li>
+                                    <li>
+                                        All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+                                        making this the
+                                        first true
+                                        generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+                                        of model
+                                        sentence
+                                        structures, to generate Lorem Ipsum which looks reasonable.
+                                    </li>
+                                    <li>
+                                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                                        Sections
+                                        1.10.32 and
+                                        1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+                                        original form.
+                                    </li>
+                                </ul> -->
+                            </div>
+                            <div class="col-12 col-md-6 mb-4 mb-md-0 pe-5 order-2" data-aos="fade-up" data-aos-duration="700">
+                                <div class="custom-rectangle-section right">
+                                    <img src="img/man-wearing-smart-glasses-showing-holographic-screen-futuristic-technology.jpg" draggable="false" alt="" class="cover">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ce section concerne le service de robotique -->
+                <section class="section">
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <div data-aos="fade-up" data-aos-duration="400" class="col-12 col-md-6 mb-4 mb-md-0 pe-5 order-2 order-md-1">
+                                <div class="custom-rectangle-section">
+                                    <img src="img/3d-rendering-biorobots-concept.jpg" draggable="false" alt="" class="cover">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mb-4 mb-md-0 order-1 order-md-2">
+                                <h2 data-aos="fade-up" data-aos-duration="500" class="title fs-1 mb-4">Énergie <span class="text-blue">renouvelable</span></h2>
+                                <p data-aos="fade-up" data-aos-duration="600" class="fs-6 mb-4">
+                                ElikiaTech SARL Innovations s'engage pour le développement durable et encourage activement l'utilisation de sources
+                                d'énergie renouvelables de diverses manières.
+                                </p>
+                                <!-- <ul data-aos="fade-up" data-aos-duration="700">
+                                    <li>
+                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                                        isn't anything embarrassing hidden in the
+                                        middle of text.
+                                    </li>
+                                    <li>
+                                        All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks
+                                        as necessary, making this the first true
+                                        generator on the Internet. It uses a dictionary of over 200 Latin words,
+                                        combined with a handful of model sentence
+                                        structures, to generate Lorem Ipsum which looks reasonable.
+                                    </li>
+                                    <li>
+                                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for
+                                        those interested. Sections 1.10.32 and
+                                        1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
+                                        their exact original form.
+                                    </li>
+                                    <li>
+                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature
+                                        from 45 BC, making it over 2000 years old.
+                                    </li>
+                                </ul> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- cette section concerne le service d'ioT -->
+                <section class="section gray">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 mb-4 mb-md-0 order-1">
+                                <h2 data-aos="fade-up" data-aos-duration="400" class="title fs-1 mb-4">Solutions de <span class="text-blue">caméras de surveillance</span>
+                                </h2>
+                                <p data-aos="fade-up" data-aos-duration="500" class="fs-6 mb-4">
+                                ElikiaTech SARL Innovations conçoit et installe également des systèmes de caméras de surveillance. Leurs solutions de
+                                caméras innovantes intègrent l'intelligence artificielle et l'apprentissage automatique pour améliorer les capacités de
+                                sécurité et de surveillance des écoles, des campus et d'autres établissements.
+                                </p>
+                                <!-- <ul data-aos="fade-up" data-aos-duration="600">
+                                    <li>
+                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                                        embarrassing hidden
+                                        in the
+                                        middle of text.
+                                    </li>
+                                    <li>
+                                        All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+                                        making this the
+                                        first true
+                                        generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+                                        of model
+                                        sentence
+                                        structures, to generate Lorem Ipsum which looks reasonable.
+                                    </li>
+                                    <li>
+                                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                                        Sections
+                                        1.10.32 and
+                                        1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+                                        original form.
+                                    </li>
+                                </ul> -->
+                            </div>
+                            <div class="col-12 col-md-6 mb-4 mb-md-0 pe-5 order-2" data-aos="fade-up" data-aos-duration="700">
+                                <div class="custom-rectangle-section right">
+                                    <img src="img/active-woman-standing-against-wall-using-her-smartphone.jpg" draggable="false" alt="" class="cover">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- la section CTA -->
+                <section class="section">
+                    <div class="container">
+                        <div class="row">
+                            <div data-aos="fade-up" data-aos-duration="400" class="col-12 col-md-6 mb-4 mb-md-0 pe-5 order-2 order-md-1">
+                                <div class="custom-rectangle-section">
+                                    <img src="img/image-23.png" draggable="false" alt="" class="cover">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mb-4 mb-md-0 order-1 order-md-2">
+                                <h2 data-aos="fade-up" data-aos-duration="500" class="title fs-1 mb-4">Vous avez <span class="text-blue">un projet en tête ?</span> Parlons-en!
+                                </h2>
+                                <p data-aos="fade-up" data-aos-duration="600" class="fs-6 mb-4">
+                                    On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de
+                                    distractions, et
+                                    empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte
+                                    générique.
+                                </p>
+                                <a href="contact.html" class="btn-core">Nous contacter</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- le pieds de page -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-5 mb-4" data-aos="fade-up" data-aos-duration="400">
+                            <img src="img/logo.png" class="mb-4 d-inline-block logo-qi-cd" alt="logo qi-cd" draggable="false">
+                            <p>
+                                Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre
+                                elles a été altérée
+                                par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte
+                                standard.
+                            </p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4" data-aos="fade-up" data-aos-duration="500">
+                            <h3 class="bold fs-5 mb-4">Contacts</h3>
+                            <p>
+                                <span class="text-blue bold">Adresse : </span> 02, avenue Lokelenge, Kinshasa Ngaliema
+                            </p>
+                            <p>
+                                <span class="text-blue bold">Téléphone : </span> +243815878056, +243990055345
+                            </p>
+                            <p>
+                                <span class="text-blue bold">E-Mail : </span> infos@elikia-tech.com
+                            </p>
+                            <p>
+                                <span class="text-blue bold">Horaires : </span> Lun - Ven : 08h30 - 16h30
+                            </p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="fade-up" data-aos-duration="600">
+                            <h3 class="bold fs-5 mb-4">La société</h3>
+                            <p><a href="about.html" class="link">A propos</a></p>
+                            <p><a href="about.html" class="link">Nos services</a></p>
+                            <p><a href="about.html" class="link">Nos projets</a></p>
+                            <p><a href="about.html" class="link">Contact</a></p>
+                         
+                        </div>
+                     
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+
+    <!-- les liens js -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/owl.carousel.min.js"></script>
+
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
